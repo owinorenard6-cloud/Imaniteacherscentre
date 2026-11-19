@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en-KE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Imani Teachers Center | CBC & KCSE Schemes of Work, Lesson Plans and Exams</title>
+  <meta name="description" content="Prepare and organise teaching documents with Imani Teachers Center. Create schemes of work, structured lesson plans, revision materials and assessments for Kenyan teachers from PP1 to Grade 12 and Form 1 to Form 4.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="author" content="Imani Teachers Center">
+  <meta name="theme-color" content="#173b59">
+  <meta name="application-name" content="Imani Teachers Center">
+  <link rel="canonical" href="https://imaniteachers.co.ke/">
+  <link rel="alternate" hreflang="en-ke" href="https://imaniteachers.co.ke/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_KE">
+  <meta property="og:site_name" content="Imani Teachers Center">
+  <meta property="og:title" content="Imani Teachers Center | Teaching Resources for Kenyan Teachers">
+  <meta property="og:description" content="Plan your teaching week with schemes of work, lesson plans, revision resources and assessments for PP1 to Grade 12 and Form 1 to Form 4.">
+  <meta property="og:url" content="https://imaniteachers.co.ke/">
+  <meta property="og:image" content="https://imaniteachers.co.ke/assets/landing/hero-board.jpg">
+  <meta property="og:image:alt" content="A teacher leading a classroom lesson">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Imani Teachers Center | Teaching Resources for Kenyan Teachers">
+  <meta name="twitter:description" content="Schemes of work, lesson plans, revision and exams for Kenyan teachers.">
+  <meta name="twitter:image" content="https://imaniteachers.co.ke/assets/landing/hero-board.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect rx='14' width='64' height='64' fill='%23163a5f'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='26' fill='%23f4f8fc' font-family='Georgia'%3EIT%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://imaniteachers.co.ke/#organization","name":"Imani Teachers Center","url":"https://imaniteachers.co.ke/","description":"A teaching-planning and document workspace for Kenyan teachers."},{"@type":"WebSite","@id":"https://imaniteachers.co.ke/#website","url":"https://imaniteachers.co.ke/","name":"Imani Teachers Center","publisher":{"@id":"https://imaniteachers.co.ke/#organization"},"inLanguage":"en-KE"},{"@type":"SoftwareApplication","name":"Imani Teachers Center","applicationCategory":"EducationalApplication","operatingSystem":"Web browser","url":"https://imaniteachers.co.ke/","description":"A web workspace for preparing schemes of work, lesson plans, revision materials, exams and teaching schedules for Kenyan teachers."}]}
+  </script>
+  <link rel="stylesheet" href="assets/JS/CSS/bootstrap.min.css?v=20261117a">
+  <link rel="stylesheet" href="assets/JS/CSS/fontawesome.min.css?v=20261117a">
+  <link rel="stylesheet" href="assets/JS/CSS/adminlte.min.css?v=20261117a">
+  <link rel="stylesheet" href="assets/JS/CSS/styles.css?v=20261103y">
+  <link rel="stylesheet" href="assets/JS/CSS/backend.css?v=20261103z">
+  <script>
+    try {
+      if (localStorage.getItem("imani-theme") === "dark") document.documentElement.setAttribute("data-theme", "dark");
+    } catch (err) {}
+    function itcOpenAuth(mode) {
+      var login = mode !== "register";
+      var next = login ? "#/signin" : "#/register";
+      var pub = document.getElementById("public");
+      var work = document.getElementById("workspace");
+      var view = document.getElementById("auth-view");
+      if (pub) pub.hidden = true;
+      if (work) work.hidden = true;
+      if (view) view.hidden = false;
+      if (window.itcShowAuth) window.itcShowAuth(login ? "login" : "register");
+      else if ((location.hash || "") !== next) location.hash = next;
+    }
+    function itcGuardAuth(event) {
+      if (event && event.preventDefault) event.preventDefault();
+      if (window.itcSubmitAuth) return window.itcSubmitAuth(event);
+      var err = document.getElementById("auth-error");
+      if (err) err.textContent = "The page is still loading. Wait a moment, then try again.";
+      return false;
+    }
+  </script>
+  <link rel="stylesheet" href="assets/JS/CSS/brand-refresh.css?v=20261119c">
+</head>
+<body>
+  <div id="public">
+    <header class="lp-nav" id="lp-nav">
+      <div class="lp-nav-bar">
+        <a class="brand" href="#/">
+          <span class="mark">IT</span>
+          <span><strong>Imani Teachers Center</strong><small>PP1 to Grade 12</small></span>
+        </a>
+        <button class="lp-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="lp-links" onclick="var bar=document.getElementById('lp-nav'); var open=bar.classList.toggle('is-open'); this.setAttribute('aria-expanded', open ? 'true' : 'false');">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="lp-links" id="lp-links" aria-label="Primary" onclick="if (event.target.closest('a')) document.getElementById('lp-nav').classList.remove('is-open')">
+          <a href="#levels">Classes</a>
+          <a href="#how">How it works</a>
+          <a href="#calendar">Calendar</a>
+          <a href="#exams">Exams</a>
+          <a href="#research">Research</a>
+          <button class="btn-line btn-small" type="button" id="theme-public">Dark mode</button>
+          <button class="btn-line btn-small" type="button" onclick="itcOpenAuth('login')">Sign in</button>
+          <button class="btn btn-small" type="button" onclick="itcOpenAuth('register')">Create account</button>
+        </nav>
+      </div>
+    </header>
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <main id="main-content">
+      <section class="lp-hero">
+        <div class="lp-hero-copy">
+          <p class="kicker">For the teacher who is already in the room</p>
+          <h1>Walk in on Monday with the week already written.</h1>
+          <p class="lead">Schemes, lesson plans, revision and exams for PP1 to Grade 12, and Form 1 to Form 4. Set the lessons, the opening day and every break. The lesson plan prints as a table.</p>
+          <div class="hero-actions">
+            <button class="btn" type="button" onclick="itcOpenAuth('register')">Create an account</button>
+            <button class="btn-line" type="button" onclick="itcOpenAuth('login')">Sign in</button>
+          </div>
+        </div>
+        <figure class="lp-hero-photo" id="lp-carousel">
+          <div class="lp-hero-window">
+            <div class="lp-hero-track" id="lp-hero-track">
+              <img fetchpriority="high" decoding="async" src="assets/landing/hero-board.jpg" alt="Learners seated at desks while a teacher leads the class from the front.">
+              <img loading="lazy" decoding="async" src="assets/landing/hero-class.jpg" alt="Books, coloured pencils and letter blocks arranged on a classroom table.">
+              <img loading="lazy" decoding="async" src="assets/landing/hero-books.jpg" alt="A student walking between tall shelves of books in a library.">
+            </div>
+          </div>
+          <figcaption id="lp-hero-cap">A lesson at the front of the room.</figcaption>
+        </figure>
+      </section>
+
+      <section class="lp-banner" aria-label="Scenes from a teaching week">
+        <div class="lp-banner-head">
+          <p>A week at the centre</p>
+          <span>The strip keeps moving. Pause it by resting on a picture.</span>
+        </div>
+        <div class="lp-marquee">
+          <div class="lp-track">
+            <figure class="lp-slide lp-slide-mark"><img loading="lazy" decoding="async" src="assets/landing/cbc.png" alt="Kenya’s Competency Based Curriculum (CBC)."><figcaption>Competency Based Curriculum</figcaption></figure>
+            <figure class="lp-slide lp-slide-mark"><img loading="lazy" decoding="async" src="assets/landing/knec.png" alt="Kenya National Examinations Council (KNEC)."><figcaption>KNEC</figcaption></figure>
+            <figure class="lp-slide"><img loading="lazy" decoding="async" src="assets/landing/banner-classroom.jpg" alt="Learners seated in a blue classroom during a mathematics lesson."><figcaption>The lesson</figcaption></figure>
+            <figure class="lp-slide lp-slide-moe"><img loading="lazy" decoding="async" src="assets/landing/moe.png" alt="Kenya Ministry of Education emblem."><figcaption>Ministry of Education</figcaption></figure>
+            <figure class="lp-slide"><img loading="lazy" decoding="async" src="assets/landing/banner-staffroom.jpg" alt="Three teachers writing in notebooks around a staffroom table."><figcaption>The staffroom</figcaption></figure>
+            <figure class="lp-slide"><img loading="lazy" decoding="async" src="assets/landing/banner-compound.jpg" alt="Students reading together outside a school building."><figcaption>After the bell</figcaption></figure>
+            <figure class="lp-slide"><img loading="lazy" decoding="async" src="assets/landing/banner-plans.jpg" alt="A teacher’s desk with lesson pages, a pen and a timetable."><figcaption>The scheme</figcaption></figure>
+            <figure class="lp-slide lp-slide-mark" aria-hidden="true"><img loading="lazy" decoding="async" src="assets/landing/cbc.png" alt=""><figcaption>Competency Based Curriculum</figcaption></figure>
+            <figure class="lp-slide lp-slide-mark" aria-hidden="true"><img loading="lazy" decoding="async" src="assets/landing/knec.png" alt=""><figcaption>KNEC</figcaption></figure>
+            <figure class="lp-slide" aria-hidden="true"><img loading="lazy" decoding="async" src="assets/landing/banner-classroom.jpg" alt=""><figcaption>The lesson</figcaption></figure>
+            <figure class="lp-slide lp-slide-moe" aria-hidden="true"><img loading="lazy" decoding="async" src="assets/landing/moe.png" alt=""><figcaption>Ministry of Education</figcaption></figure>
+            <figure class="lp-slide" aria-hidden="true"><img loading="lazy" decoding="async" src="assets/landing/banner-staffroom.jpg" alt=""><figcaption>The staffroom</figcaption></figure>
+            <figure class="lp-slide" aria-hidden="true"><img loading="lazy" decoding="async" src="assets/landing/banner-compound.jpg" alt=""><figcaption>After the bell</figcaption></figure>
+            <figure class="lp-slide" aria-hidden="true"><img loading="lazy" decoding="async" src="assets/landing/banner-plans.jpg" alt=""><figcaption>The scheme</figcaption></figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="lp-section" id="levels">
+        <p class="kicker">Classes</p>
+        <h2>One workshop, from the first year to the last paper.</h2>
+        <div class="lp-levels">
+          <article class="lp-level"><strong>01</strong><h3>Pre-primary</h3><p>PP1 and PP2 language, mathematical, environmental, creative and religious activities.</p></article>
+          <article class="lp-level"><strong>02</strong><h3>Primary</h3><p>Grade 1 to Grade 6 learning areas, including a bridge from the class before.</p></article>
+          <article class="lp-level"><strong>03</strong><h3>Junior and senior</h3><p>Grade 7 to Grade 12 CBE, with core subjects and pathway electives.</p></article>
+          <article class="lp-level"><strong>04</strong><h3>KCSE</h3><p>Form 1 to Form 4 schemes, lesson plans and original revision for that form.</p></article>
+        </div>
+      </section>
+
+      <section class="lp-section" id="how">
+        <p class="kicker">How it works</p>
+        <h2>From the staffroom table to a document you can stand behind.</h2>
+        <div class="lp-steps">
+          <article><span>01</span><h3>Create an account</h3><p>Your name, school and role are ready for the cover: teacher, HoD, deputy or principal.</p></article>
+          <article><span>02</span><h3>Choose the learning area</h3><p>Pick the class, subject, topics and the course book your learners use.</p></article>
+          <article><span>03</span><h3>Set the term</h3><p>Lessons per week, the opening date, half-term, closing day and any other break.</p></article>
+          <article><span>04</span><h3>Check the cover</h3><p>TSC number, school, and the names that sign as HoD, deputy and principal.</p></article>
+          <article><span>05</span><h3>Read the lesson table</h3><p>Time, content, learning activities, resources and reference. Self-evaluation stays blank.</p></article>
+          <article><span>06</span><h3>Keep it in your account</h3><p>Preview the pages, then save Word or PDF from the workspace. The calendar, schedule and search live there too.</p></article>
+        </div>
+      </section>
+
+      <section class="lp-split" id="sample">
+        <figure>
+          <img loading="lazy" decoding="async" src="assets/landing/banner-plans.jpg" alt="Printed lesson pages and a pen on a teacher’s desk.">
+        </figure>
+        <div>
+          <p class="kicker">Breaks</p>
+          <h2>A break is labelled. The teaching columns stay empty.</h2>
+          <p>Half-term, a public holiday, a custom break and the end of term each get their own row. The dates are visible. Nothing is invented for those days.</p>
+        </div>
+      </section>
+
+      <section class="lp-section" id="calendar">
+        <p class="kicker">2026 school calendar</p>
+        <h2>Ministry dates, ready for you to edit.</h2>
+        <p id="today-note" class="help"></p>
+        <div class="panel">
+          <table class="plain">
+            <thead><tr><th>Term</th><th>Opens</th><th>Closes</th><th>Break inside the term</th></tr></thead>
+            <tbody id="term-table"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="lp-pair">
+        <article id="exams">
+          <p class="kicker">Exams</p>
+          <h2>Papers for your class.</h2>
+          <p>Prepare an original assessment from the strands for that grade, or upload a PDF or Word exam for your class.</p>
+          <button class="btn" type="button" onclick="itcOpenAuth('login')">Open exams</button>
+        </article>
+        <article id="research">
+          <p class="kicker">Research</p>
+          <h2>Notes kept by this centre.</h2>
+          <p>Sign in to read research the administrator has uploaded. Other universities are not listed here.</p>
+          <button class="btn-line" type="button" onclick="itcOpenAuth('login')">Open research</button>
+        </article>
+      </section>
+    </main>
+    <footer class="lp-footer">
+      <div class="lp-footer-inner">
+        <div><strong>Imani Teachers Center</strong><span>Schemes, lesson plans, revision and exams.</span></div>
+        <div>Accounts and documents are stored in the school database.</div>
+      </div>
+    </footer>
+    <script>
+      (function () {
+        var track = document.getElementById("lp-hero-track");
+        var cap = document.getElementById("lp-hero-cap");
+        if (!track) return;
+        var notes = [
+          "A lesson at the front of the room.",
+          "The tools of the first years.",
+          "The shelves between periods."
+        ];
+        var index = 0;
+        if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+        setInterval(function () {
+          index = (index + 1) % 3;
+          track.style.transform = "translateX(" + (-index * 100 / 3) + "%)";
+          if (cap) cap.textContent = notes[index];
+        }, 3000);
+      })();
+    </script>
+  </div>
+
+  <div id="auth-view" class="login-page" data-mode="login" hidden>
+    <div class="login-box" id="auth-box">
+      <div class="login-logo" id="auth-logo">
+        <a href="#/"><b>IMANI</b> TEACHERS</a>
+      </div>
+      <div class="card">
+        <div class="card-body login-card-body" id="auth-card-body">
+          <p class="login-box-msg" id="auth-title">Sign in</p>
+          <p class="text-muted text-center" id="auth-lead">Use the email and password for your school account.</p>
+          <form id="auth-form" method="post" action="#/signin" onsubmit="return itcGuardAuth(event)" novalidate>
+            <div class="input-group mb-3 reg-only">
+              <input class="form-control" name="name" placeholder="Full name" autocomplete="name">
+              <div class="input-group-append"><div class="input-group-text"><span class="fas fa-user"></span></div></div>
+            </div>
+            <div class="input-group mb-3 email-only">
+              <input class="form-control" name="email" type="email" placeholder="Email" autocomplete="username" required>
+              <div class="input-group-append"><div class="input-group-text"><span class="fas fa-envelope"></span></div></div>
+            </div>
+            <div class="input-group mb-3 pass-only">
+              <input class="form-control" id="auth-password" name="password" type="password" minlength="6" placeholder="Password" autocomplete="current-password" required>
+              <div class="input-group-append"><div class="input-group-text"><span class="fas fa-lock" aria-hidden="true"></span></div><button class="input-group-text password-toggle" type="button" data-password-toggle aria-controls="auth-password" aria-label="Show password" aria-pressed="false">Show</button></div>
+            </div>
+            <div class="input-group mb-3 reg-only">
+              <input class="form-control" name="school" placeholder="School" autocomplete="organization">
+              <div class="input-group-append"><div class="input-group-text"><span class="fas fa-school"></span></div></div>
+            </div>
+            <div class="input-group mb-3 reg-only">
+              <input class="form-control" name="tsc" placeholder="TSC number (optional)">
+              <div class="input-group-append"><div class="input-group-text"><span class="fas fa-id-card"></span></div></div>
+            </div>
+            <div class="input-group mb-3 reg-only">
+              <input class="form-control" name="phone" inputmode="tel" placeholder="M-Pesa number (optional)" autocomplete="tel">
+              <div class="input-group-append"><div class="input-group-text"><span class="fas fa-phone"></span></div></div>
+            </div>
+            <div class="form-group reg-only">
+              <select class="form-control" name="role">
+                <option>Teacher</option>
+                <option>Head of Department</option>
+                <option>Deputy Principal</option>
+                <option>Principal</option>
+              </select>
+            </div>
+            <p class="text-danger" id="auth-error"></p>
+            <button class="btn btn-primary btn-block" type="submit" id="auth-submit">Sign in</button>
+            <button class="btn btn-line btn-block auth-preview-button" type="button" id="auth-preview-access" hidden>Continue to workspace preview</button>
+            <p class="auth-preview-note" id="auth-preview-note" hidden>Temporary preview access. No account or password will be saved.</p>
+          </form>
+          <p class="mb-1 mt-3 text-center" id="auth-switch"><a href="#/register" onclick="itcOpenAuth('register'); return false;">Create an account</a></p>
+          <p class="mb-0 text-center"><a href="#/">Back to the site</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="workspace" class="wrapper" hidden>
+    <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+          <a href="#/dashboard" class="nav-link">Home</a>
+        </li>
+      </ul>
+      <form class="form-inline ml-3" onsubmit="return false">
+        <div class="search-wrap">
+          <input id="search-input" class="form-control form-control-navbar" type="search" placeholder="Search classes, documents, posts" aria-label="Search">
+          <div id="search-pop" class="search-pop" hidden></div>
+        </div>
+      </form>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#" id="theme-app">Dark mode</a></li>
+        <li class="nav-item"><a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" id="ai-toggle">Notes</a></li>
+        <li class="nav-item d-none d-lg-inline-block"><span class="nav-link" id="user-chip"></span></li>
+        <li class="nav-item"><a class="nav-link" href="#" id="sign-out">Sign out</a></li>
+      </ul>
+    </nav>
+    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+      <a href="#/dashboard" class="brand-link">
+        <span class="brand-text font-weight-light">IMANI TEACHERS</span>
+      </a>
+      <div class="sidebar">
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+          <div class="info">
+            <a href="#/account" class="d-block" id="side-school">Teachers Center</a>
+          </div>
+        </div>
+        <nav class="mt-2">
+          <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+            <li class="nav-item"><a class="nav-link side-link" href="#/dashboard"><i class="nav-icon fas fa-tachometer-alt"></i><p>Dashboard</p></a></li>
+            <li class="nav-item"><a class="nav-link side-link" href="#/generate"><i class="nav-icon fas fa-edit"></i><p>Generate</p></a></li>
+            <li class="nav-item"><a class="nav-link side-link" href="#/documents"><i class="nav-icon fas fa-folder-open"></i><p>My documents</p></a></li>
+            <li class="nav-item"><a class="nav-link side-link" href="#/transactions"><i class="nav-icon fas fa-receipt"></i><p>Transactions</p></a></li>
+            <li class="nav-item"><a class="nav-link side-link" href="#/schemes"><i class="nav-icon fas fa-table"></i><p>Scheme history</p></a></li>
+            <li class="nav-item"><a class="nav-link side-link" href="#/lessons"><i class="nav-icon fas fa-chalkboard-teacher"></i><p>Lesson history</p></a></li>
+            <li class="nav-item"><a class="nav-link side-link" href="#/calendar"><i class="nav-icon fas fa-calendar-alt"></i><p>Calendar</p></a></li>
+            <li class="nav-item"><a class="nav-link side-link" href="#/schedule"><i class="nav-icon fas fa-tasks"></i><p>Schedule</p></a></li>
+            <li class="nav-item"><a class="nav-link side-link" href="#/exams"><i class="nav-icon fas fa-file-alt"></i><p>Exams</p></a></li>
+            <li class="nav-item"><a class="nav-link side-link" href="#/research"><i class="nav-icon fas fa-book"></i><p>Research</p></a></li>
+            <li class="nav-item"><a class="nav-link side-link" href="#/account"><i class="nav-icon fas fa-user"></i><p>Profile</p></a></li>
+            <li class="nav-item" id="side-finance-item" hidden><a class="nav-link side-link" href="#/finance"><i class="nav-icon fas fa-chart-line"></i><p>Finance</p></a></li>
+            <li class="nav-item" id="side-users-item" hidden><a class="nav-link side-link" href="#/users"><i class="nav-icon fas fa-users"></i><p>Users</p></a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+    <div class="content-wrapper">
+      <section class="content pt-3">
+        <div class="container-fluid" id="main"></div>
+      </section>
+    </div>
+    <aside class="control-sidebar control-sidebar-light" id="ai-panel">
+      <h5>Class notes</h5>
+      <div id="ai-brief"></div>
+      <div id="ai-log" aria-live="polite"></div>
+      <div class="chips">
+        <button class="chip" type="button" data-ask="Suggest activities for this lesson">Activities</button>
+        <button class="chip" type="button" data-ask="Write assessment ideas">Assessment</button>
+        <button class="chip" type="button" data-ask="Adapt this for mixed ability">Mixed ability</button>
+        <button class="chip" type="button" data-ask="How should breaks appear?">Breaks</button>
+        <button class="chip" type="button" data-ask="What should I bring from the previous class?">Previous class</button>
+      </div>
+      <form class="ai-form" id="ai-form">
+        <input id="ai-input" class="form-control" placeholder="Ask about this class" aria-label="Ask about this class">
+        <button class="btn btn-sm btn-primary mt-2" type="submit">Send</button>
+      </form>
+    </aside>
+  </div>
+
+  <div id="modal-root"></div>
+  <div id="toast-root"></div>
+  <script src="assets/JS/JS/JS/jquery.min.js?v=20261117a"></script>
+  <script src="assets/JS/JS/bootstrap.bundle.min.js?v=20261117a"></script>
+  <script src="assets/JS/adminlte.min.js?v=20261117a"></script>
+  <script src="js/curriculum.js?v=20261103u"></script>
+  <script src="js/storage.js?v=20261102d"></script>
+  <script src="js/generator.js?v=20261104a"></script>
+  <script src="js/documents.js?v=20261104a"></script>
+  <script src="js/ai.js?v=20261102x"></script>
+  <script src="js/app.js?v=20261119f"></script>
+</body>
+</html>
